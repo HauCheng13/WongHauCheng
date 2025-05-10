@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav id="top-navbar">
+    <span id="clock"></span>
+    <a href="Wong Hau Cheng S10194108 ResumeCV (4).pdf" target="_blank">Resume</a>
+  </nav>
+  
+  <nav id="navbar">
+    <h1>Wong Hau Cheng</h1>
+    <h2>Aspiring Engineer</h2>
+    <p>A Developer with a strong interest in building responsive, beautiful and user-friendly websites.</p>
+    <ul id="list">
+      <li><a href="#about" class="nav-link"><span class="arrow">➜</span>About</a></li>
+      <li><a href="#projects" class="nav-link"><span class="arrow">➜</span>Projects</a></li>
+      <li><a href="#certificates" class="nav-link"><span class="arrow">➜</span>Certificates</a></li>
+    </ul>
+
+    <div class="contacts">
+    <a href="mailto:haucheng44444@gmail.com" target="_blank" rel="noopener noreferrer">
+      <i class="fas fa-envelope fa-2x"></i>
+    </a>
+    <a href="https://www.instagram.com/nil313q" target="_blank" rel="noopener noreferrer">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://github.com/Haucheng13" target="_blank" rel="noopener noreferrer">
+      <i class="fab fa-github"></i>
+    </a>
+    </div>
+  </nav>
+  <main>
+    <section class="about" id="about">
+      <p>Hi there! <span class="emoji">😎</span> I’m a 22 year old computer science student with a growing interest in Web Development. I’ve completed coding courses and built projects that aims to create experiences that blends aesthetics with interactivity. I’m eager to apply my skills in a real-world environment and keep pushing myself as a developer.</p>
+      <p>When I'm not coding, you’ll likely find me on the basketball court. Whether it's a casual pick-up game or just practicting my shots 🏀 I'm all about pushing myself to the next level so I make it a habit to hit the gym at least twice a week to stay sharp and energized! 💪😄</p>
+      <p>I'm constantly trying to expand my skillset by learning new technologies and frameworks, like <span class="colorful">React</span>. I thrive in challenging and fast-paced environments where I can collaborate with others, as I believe communication is key to learning and growth.</p>
+      <p>During my National Service, I remained commited to my personal growth, I made it a priority to continue learning by dedicating my free time to studying through online courses and self-initiated projects, which helped me stay sharp and deepen my passion for coding.</p>
+      <p>I'm seeking opportunities to contribute to a company that values creativity, collaboration and continuous learning! My goal is to work alongside other experienced developers and tackle meaningful real-world challenges together. I also plan to pursue a part-time degree to deepen my technical knowledge and expand my career opportunities.</p>
+    </section>
+    <section id="projects">
+      <a href="https://haucheng13.github.io/SearchApp/" target="_blank" class="project-link">
+      <div class="project-card">
+        <img class="project-image" src="images/image1.png" alt="Project thumbnail">
+        <div class="project info">
+          <h3>Creature Search App</h3>
+          <p>An app where the users will search for creatures from an RPG game by name or ID and display the results to the user. Built using freeCodeCamp's RPG Creature API</p>
+        </div>
+        <i class="fas fa-arrow-right arrow-icon"></i>
+      </div>
+      </a>
+      </div>
+      <a href="https://haucheng13.github.io/CashRegister/" target="_blank" class="project-link">
+      <div class="project-card">
+        <img class="project-image" src="images/image2.png" alt="Project thumbnail">
+        <div class="project-info">
+          <h3>Cash Register App</h3>
+          <p>A Cash Register App that will return change to the customer based on the price of the item, the amount of cash provided by the customer, and the amount of cash in the cash drawer.</p>
+        </div>
+        <i class="fas fa-arrow-right arrow-icon"></i>
+      </div>
+      </a>
+      <a href="https://haucheng13.github.io/StringCheckers/" target="_blank" class="project-link">
+      <div class="project-card" onclick="openModal('stringcheckers')">
+        <img class="project-image" src="images/image3.png" alt="Project thumbnail">
+        <div class="project-info">
+          <h3>Interactive String Checkers App</h3>
+          <p>String checkers App which consists of a Palindrome Checker and a word frequency counter.</p>
+        </div>
+        <i class="fas fa-arrow-right arrow-icon"></i>
+      </div>
+      </a>
+      <a href="https://haucheng13.github.io/ProductLandingPage/" target="_blank" class="project-link">
+      <div class="project-card">
+        <img class="project-image" src="images/image4.png" alt="Project thumbnail">
+        <div class="project-info">
+          <h3>Product Landing Page</h3>
+          <p>Product Landing Page with a clean interface that promotes and sells gym equipments and products! </p>
+        </div>
+        <i class="fas fa-arrow-right arrow-icon"></i>
+      </div>
+      </a>
+        <a target="_blank" href="https://github.com/HauCheng13?tab=repositories" class="repositorylink">View Full Project Archive</a>
+    </section>
+    
+    <section id="certificates">
+      <div class="certificate-card" onclick="openModal('modal1')">
+        <img class="certificate-image" src="images/cert1.png" alt="Project thumbnail">
+        <div class="certificate-info">
+          <span>FreeCodeCamp</span>
+          <h3>Responsive Web Design <span class="star">✨</span></h3> 
+        </div>
+      </div>
+      <div class="certificate-card" onclick="openModal('modal2')">
+        <img class="certificate-image" src="images/cert2.png" alt="Project thumbnail">
+        <div class="certificate-info">
+          <span>FreeCodeCamp</span>
+          <h3>Javascript Algorithms and Data Structures <span class="star">✨</span></h3>
+        </div>
+      </div>
+      <div class="certificate-card" onclick="openModal('modal3')">
+        <img class="certificate-image" src="images/cert3.png" alt="Project thumbnail">
+        <div class="certificate-info">
+          <span>AWS Skill Builder</span>
+          <h3>AWS Cloud Essentials Knowledge <span class="star">✨</span></h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal for certificate 1 -->
+<div id="modal1" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal1')">&times;</span>
+    <img src="images/cert1.png" class="modalimage">
+    <h4>Responsive Web Design Certificate</h4>
+    <p>The Responsive Web Design certification from freeCodeCamp teaches HTML, CSS, and responsive design principles, focusing on creating mobile-friendly websites. It includes hands-on projects like a survey form, product page, and portfolio.</p>
+    <!-- Close button inside the modal -->
+    <button class="close-btn" onclick="closeModal('modal1')">Close</button>
+  </div>
+</div>
+
+<!-- Modal for certificate 2 -->
+<div id="modal2" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal2')">&times;</span>
+    <img src="images/cert2.png" class="modalimage">
+    <h4>JavaScript Algorithms and Data Structures Certificate</h4>
+    <p>The JavaScript Algorithms and Data Structures certification covers JavaScript basics, data structures, and algorithms, with a focus on problem-solving. It includes projects like a palindrome checker, Roman numeral converter, and cash register.</p>
+    <button class="close-btn" onclick="closeModal('modal2')">Close</button>
+  </div>
+</div>
+
+<!-- Modal for certificate 3 -->
+<div id="modal3" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal3')">&times;</span>
+    <img src="images/cert3.png" class="modalimage">
+    <h4>AWS Cloud Essentials Knowledge Certificate</h4>
+    <p>The AWS Knowledge: Cloud Essentials badge is a foundational digital credential offered by Amazon Web Services (AWS). It demonstrates your understanding of core AWS Cloud concepts, including compute, storage, networking, databases, security, architecture, pricing, and support.</p>
+    <a class="badge" href="https://www.credly.com/badges/28ded220-e6d3-4223-87a6-6c111011e2b5/public_url" target="_blank">Click to view badge</a>
+    <button class="close-btn" onclick="closeModal('modal3')">Close</button>
+  </div>
+</div>
+   <footer>
+    <p> Built from the ground up with <b>Visual Studio Code</b> and deployed seamlessly on <b>Netlify</b>.</p>
+  </footer>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
