@@ -283,8 +283,9 @@ nav .contacts a i {
 }
 
 .certificate-card:hover {
-  background-color: #2d546b3b;
+  background-color: #2d546b3f;
   transform: translateY(-8px);
+  cursor: pointer;
 }
 
 .certificate-card:hover h3 {
@@ -443,7 +444,6 @@ footer {
   max-width: 30rem;
   font-size: 0.85em;
   color: #9097b1d8;
-
 }
 
 /* Base Styles */
