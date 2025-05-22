@@ -466,7 +466,15 @@ footer {
   border-radius: 8px; /* Rounded corners for images */
 }
 
-
+@media (max-width: 768px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    align-items: center;
+    gap: 5em;
+  }
+}
 
 
 
