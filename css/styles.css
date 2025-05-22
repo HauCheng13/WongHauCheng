@@ -466,7 +466,6 @@ footer {
   border-radius: 8px; /* Rounded corners for images */
 }
 
-@media (max-width: 768px) {
   @media (max-width: 768px) {
   /* Body and main container */
   body, main {
@@ -488,6 +487,7 @@ footer {
     width: 100%;
     gap: 0.5rem;
     padding: 1rem 0;
+    position: static;
   }
 
   /* Navbar text centered */
@@ -577,7 +577,7 @@ footer {
   }
 }
 
-}
+
 
 
 
