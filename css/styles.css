@@ -466,31 +466,7 @@ footer {
   border-radius: 8px; /* Rounded corners for images */
 }
 
-/* Media Queries */
 
-/* Tablets and smaller laptops (1024px and below) */
-@media (max-width: 1024px) {
-  .certificate {
-    width: 45%; /* 2 certificates per row */
-    margin: 15px; /* Reduce space between certificates */
-  }
-}
-
-/* Portrait tablets and smaller devices (768px and below) */
-@media (max-width: 768px) {
-  .certificate {
-    width: 80%; /* 1 certificate per row */
-    margin: 15px auto; /* Center the certificates and reduce spacing */
-  }
-}
-
-/* Very small screens (600px and below) */
-@media (max-width: 600px) {
-  .certificate {
-    width: 90%; /* Full width for smaller screens */
-    margin: 10px auto; /* More space for mobile devices */
-  }
-}
 
 
 
