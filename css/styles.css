@@ -479,7 +479,7 @@ footer {
   }
 
   /* Navbars stacked vertically */
-  #top-navbar,
+  
   #navbar {
     display: flex;
     flex-direction: column;
@@ -487,6 +487,14 @@ footer {
     width: 100%;
     gap: 0.5rem;
     padding: 1rem 0;
+    position: static;
+  }
+
+  #top-navbar {
+    display: flex;
+    width: 100%;
+    gap: 0.5rem;
+    padding: 1 rem 0;
     position: static;
   }
 
